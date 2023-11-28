@@ -16,7 +16,7 @@ const ExtraCuricular = ({item}) => {
                 } hover:scale-105 link`}
             >
 
-                <ul className="mt-5 opacity-40 text-xl list-disc mx-8 pr-10 text-justify">
+                <ul className="mt-5 opacity-40 text-xl list-disc mx-8 text-justify">
                     {
                         item.map((des, index) => {
                             return <li key={index}>{des}</li>

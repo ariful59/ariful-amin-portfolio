@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
-import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
@@ -54,14 +53,13 @@ export default function Home() {
     bar.classList.add('w-full');
   }
 
-  const skill = data.resume.skill;
 
   return (
     <div>
       <Head>
         <title>Md Ariful Amin | Software Engineer</title>
       </Head>
-      <div className="container mx-auto mb-10">
+      <div className="container mx-auto mb-10 px-8">
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}

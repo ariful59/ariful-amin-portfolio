@@ -72,7 +72,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:arifulamindu@gmail.com")
+                        window.open("/Resume_Md_Ariful_Amin.pdf")
                       }
                     >
                       Resume

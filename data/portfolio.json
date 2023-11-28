@@ -3,7 +3,7 @@
   "headerTaglineOne":"Hello, I'm",
   "headerTaglineTwo":"Md Ariful Amin",
   "headerTaglineThree":"Software Engineer",
-  "headerTaglineFour":"I have more than five (5) years of experience in the R&D industry where I worked on health-tech applications. I am proficient in building smartwatch applications from scratch, designing, and integrating APIs, implementing and using smartwatch’s internal APIs, building reusable components, and following scalable design models. Currently, I am privileged to work with a cybersecurity team at a government-owned electricity company, focusing on safeguarding credential information to prevent any potential breaches.",
+  "headerTaglineFour":"I have more than four (4) years of experience in the R&D industry where I worked on health-tech applications. I am proficient in building smartwatch applications from scratch, designing, and integrating APIs, implementing and using smartwatch’s internal APIs, building reusable components, and following scalable design models. Currently, I am privileged to work with a cybersecurity team at a government-owned electricity company, focusing on safeguarding credential information to prevent any potential breaches.",
   "showCursor":false,
   "showBlog":false,
   "darkMode":true,
@@ -129,8 +129,6 @@
   "Talent Pool Scholarship in National Primary Scholarship Examination, 2005."
   ],
   "resume":{
-    "tagline":"👋  I'm a software engineer, product designer.",
-    "description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
     "experiences":[
       {
         "id":"1",
@@ -147,12 +145,6 @@
         "bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"
       }
     ],
-    "education":{
-      "degreeName": "Bachelor of Science in Computer Science and Engineering",
-      "universityName":"University Of Dhaka, Bangladesh",
-      "universityDate":"JAN 2014 - JAN 2018",
-      "universityPara":"CGPA 3.24 / 4.00"
-    },
     "skill": {
       "Programming Languages": [
         "C/C++",
@@ -173,16 +165,6 @@
       "Code Repository": ["GitHub", "Gerrit"],
 
       "Project Management": ["Jira", "PLM", "TRESSA"]
-    },
-    "frameworks":[
-      "React",
-      "Typescript",
-      "NodeJs"
-    ],
-    "others":[
-      "Figma",
-      "AdobeXD",
-      "AWS"
-    ]
+    }
   }
 }

@@ -18,7 +18,7 @@ const ServiceCard = ({ link, name, post, duration, description }) => {
         <h1 className="italic text-xl">{post}</h1>
         <h1 className="italic text-xs">{duration}</h1>
 
-      <ul className="mt-5 opacity-40 text-xl list-disc mx-8 pr-10 text-justify">
+      <ul className="mt-5 opacity-40 text-xl list-disc mx-8 text-justify">
         {
           description.map((des, k) => {
             return <li key={k}>{des}</li>

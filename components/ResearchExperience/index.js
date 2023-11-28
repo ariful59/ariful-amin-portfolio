@@ -17,14 +17,14 @@ const ResearchExperience = ({name, duration, description, publication}) => {
             <h1 className="text-3xl font-bold">{name} </h1>
             <h1 className="italic text-xs">{duration}</h1>
 
-            <ul className="mt-5 opacity-40 text-xl list-disc mx-8 pr-10 text-justify">
+            <ul className="mt-5 opacity-40 text-xl list-disc mx-8 text-justify">
                 {
                     description.map((des, k) => {
                         return <li key={k}>{des}</li>
                     })
                 }
             </ul>
-            <p className="mt-5 text-2xl list-disc mr-8 pr-10 text-justify text-blue-500">{<a href="https://ieeexplore.ieee.org/document/8289024">{publication}</a>}</p>
+            <p className="mt-5 text-2xl list-disc mr-8 text-justify text-blue-500">{<a href="https://ieeexplore.ieee.org/document/8289024">{publication}</a>}</p>
         </div>
     );
 };
