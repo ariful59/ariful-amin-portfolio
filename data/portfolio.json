@@ -1,0 +1,188 @@
+{
+  "name":"HOME",
+  "headerTaglineOne":"Hello, I'm",
+  "headerTaglineTwo":"Md Ariful Amin",
+  "headerTaglineThree":"Software Engineer",
+  "headerTaglineFour":"I have more than five (5) years of experience in the R&D industry where I worked on health-tech applications. I am proficient in building smartwatch applications from scratch, designing, and integrating APIs, implementing and using smartwatch’s internal APIs, building reusable components, and following scalable design models. Currently, I am privileged to work with a cybersecurity team at a government-owned electricity company, focusing on safeguarding credential information to prevent any potential breaches.",
+  "showCursor":false,
+  "showBlog":false,
+  "darkMode":true,
+  "showResume":true,
+  "socials":[
+    {
+      "id":"1",
+      "title":"Github",
+      "link":"https://github.com/ariful59/"
+    },
+    {
+      "id":"2",
+      "title":"LinkedIn",
+      "link":"https://www.linkedin.com/in/ariful-amin"
+    },
+    {
+      "id":"3",
+      "title":"Twitter",
+      "link":"#"
+    },
+    {
+      "id":"4",
+      "title":"Blog",
+      "link":"/blog"
+    },
+    {
+      "id":"5",
+      "title":"Email",
+      "link":"mailto:arifulamindu@gmail.com"
+    }
+  ],
+  "projects":[
+    {
+      "id":"1",
+      "title":"Dys Reader",
+      "description":"4 year HCI Project | Android, Java",
+      "imageSrc":"/images/project_1.png",
+      "url":"https://github.com/ariful59/Dys-Reader"
+    },
+    {
+      "id":"2",
+      "title":"Du Sports",
+      "description":"4th year WEB project | PHP, HTML, CSS, JavaScript, Bootstrap",
+      "imageSrc":"/images/project_2.png",
+      "url":"https://github.com/ariful59/DUSPORTS"
+    },
+    {
+      "id":"3",
+      "title":"OCR (English & Bangla Numbers)",
+      "description":"4th year AI Project | Java, Weka ",
+      "imageSrc":"/images/project_3.png",
+      "url":"https://github.com/ariful59/OCR"
+    },
+    {
+      "id":"4",
+      "title":"Network Simulation",
+      "description":"3rd year Data Telecommunication project | Java",
+      "imageSrc":"/images/project_4.jpeg",
+      "url":"https://github.com/ariful59/Data-Telecommunication-Project"
+    },
+    {
+      "id":"5",
+      "title":"Project Buddy",
+      "description":"3rd year SDP Project | Android, Firebase",
+      "imageSrc":"/images/project_5.png",
+      "url":"https://github.com/ariful59/Project-Buddy"
+    },
+    {
+      "id":"6",
+      "title":"Face Recognition",
+      "description":"3rd year SE project | Android, Java",
+      "imageSrc":"/images/project_6.jpeg",
+      "url":"https://github.com/ariful59/FaceRecognition"
+    }
+  ],
+  "services":[
+    {
+      "id":"1",
+      "link": "https://cpgcbl.portal.gov.bd/",
+      "title":"Coal Power Generation Company Bangladesh Limited, Bangladesh",
+      "post": "Assistant Programmer",
+      "duration": "APRIL 2022 – PRESENT",
+      "description":["Managed a team of five cyber security professionals to instruct a total of 87 employees and conducted monthly IT audits on the network to detect and address any vulnerabilities which reduced the 20% chances of cyber-attacks.",
+        "Web application development, network maintenance, organization's website development and new feature integration, power plant inventory management, and hardware and software-related support in the organization."
+    ]},
+    {
+      "id":"2",
+      "link": "",
+      "title":"Samsung R&D Institute Bangladesh, Dhaka",
+      "post": "Lead Engineer",
+      "duration": "JAN 2022 - APRIL 2022",
+      "description":["Worked as a lead Tizen application developer of Samsung Heartwise application built with C++, a cardiac rehabilitation research program collaborated with Samsung Research America (SRA) & Kaiser Permanent, USA.",
+      "Provided language support in multiple languages, and implemented the Six Minutes' Walk Test (6MWT) which is used by 20,000 patients.",
+      "Ensured a secure wireless connection, and facilitated data transfer between a smartwatch and mobile device using Bluetooth Low Energy which eliminated the need for an LTE connection, and reduced the cost of deployment of this program per patient by 16%.",
+      "Performed open-source validation and security checks on multiple versions using in-house software before their market release."]
+    },
+    {
+      "id":"3",
+      "link": "https://research.samsung.com/srbd",
+      "title":"Samsung R&D Institute Bangladesh, Dhaka ",
+      "post": "Software Engineer",
+      "duration": "APRIL 2018 - DEC 2021",
+      "description":["Implemented reusable 30% UIs of the Heartwise Tizen smartwatch application which are user-friendly for senior citizens.",
+      "Applied encryption-based technique to secure Heartwise application’s database and processed data and batch data from various smartwatch sensor APIs depending on their needs.",
+      "Implemented the self-upgrade mechanism in a smartwatch to enable automatic updates Heartwise application thereby minimizing the inconvenience for patients especially older patients to manually upgrade their application version.",
+      "Resolved over 200 issues to enhance the performance and stability of the Tizen Heartwise application, addressing critical concerns such as battery draining."]
+    }
+  ],
+  "aboutpara":"Hello.",
+  "researchExperience": {
+    "id":"1",
+    "title":"Undergraduate Research | Green Networking Research (GNR), University of Dhaka, Bangladesh",
+    "duration": "Feb 2017 - Dec 2017",
+    "description":["Network lifetime awareness anchor selection: Network lifetime has always been a key issue for wireless sensor networks. For this reason, we introduce an energy harvesting and depletion-aware anchor selection algorithm which makes the network perpetuity.",
+      "Undergrad Thesis Title: “Network lifetime aware anchor selection for energy harvesting wireless sensor networks"],
+    "publication": "One Conference Paper In 2017 IEEE Region 10 Humanitarian Technology Conference (R10-HTC)."
+  },
+  "extraCuricular": ["Honorary Award from Samsung R&D Institute, Bangladesh (SRBD) Icon of the Month (May ~ June 2019).",
+  "5th IEEE Region 10 Humanitarian Technology Conference. (Dec 21~23, 2017).",
+  "Power and Energy Hackathon, Ministry of Power Energy and Mineral Resources, Bangladesh (April 19~20, 2017).",
+  "Member of CSEDU Intra Dept. Soccer team (Champion of 2015, 2017).",
+  "Scholarship in National Junior Scholarship Examination, 2008.",
+  "Talent Pool Scholarship in National Primary Scholarship Examination, 2005."
+  ],
+  "resume":{
+    "tagline":"👋  I'm a software engineer, product designer.",
+    "description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences":[
+      {
+        "id":"1",
+        "dates":"March 2022 - Present",
+        "type":"Full Time",
+        "position":"Frontend Engineer at X",
+        "bullets":"Bullet One, Bullet Two"
+      },
+      {
+        "id":"d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates":"July 2020 - March 2022",
+        "type":"Full Time",
+        "position":"Frontend Engineer at X",
+        "bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education":{
+      "degreeName": "Bachelor of Science in Computer Science and Engineering",
+      "universityName":"University Of Dhaka, Bangladesh",
+      "universityDate":"JAN 2014 - JAN 2018",
+      "universityPara":"CGPA 3.24 / 4.00"
+    },
+    "skill": {
+      "Programming Languages": [
+        "C/C++",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Java"
+      ],
+      "Technologies": ["React",
+      "Nextjs",
+      "NodeJS",
+      "Tailwind CSS",
+      "Bootstrap"],
+      "App Development": ["Tizen", "Android"],
+
+      "Database": ["MYSQL", "SQLite"],
+      "Code Repository": ["GitHub", "Gerrit"],
+
+      "Project Management": ["Jira", "PLM", "TRESSA"]
+    },
+    "frameworks":[
+      "React",
+      "Typescript",
+      "NodeJs"
+    ],
+    "others":[
+      "Figma",
+      "AdobeXD",
+      "AWS"
+    ]
+  }
+}
