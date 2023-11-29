@@ -12,7 +12,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
       >
         <img
           alt={name}
-          className="object-cover scale-90 hover:scale-110 transition-all ease-out duration-300 mobile:justify-center"
+          className="object-cover scale-90 hover:scale-100 transition-all ease-out duration-300 justify-center"
           src={img}
         ></img>
       </div>

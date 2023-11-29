@@ -23,7 +23,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
 
-               <h1>Hello</h1>
+               <img src='/images/ariful.ico'></img>
               <div className="flex items-center">
                 {data.darkMode && (
                   <Button
@@ -121,7 +121,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
         >
-          {name}.
+            <img src='/images/ariful.ico'></img>
         </h1>
         {!isBlog ? (
           <div className="flex">

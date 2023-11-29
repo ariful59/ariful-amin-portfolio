@@ -59,20 +59,20 @@ export default function Home() {
       <Head>
         <title>Md Ariful Amin | Software Engineer</title>
       </Head>
-      <div className="container mx-auto mb-10 px-8">
+      <div className="container mx-auto mb-10 laptop:px-8 px-4">
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
         <div className="laptop:mt-20 mt-10">
-          <div className="mt-10">
+          <div className="mt-10 tablet:mx-4">
             <img
                 alt="Profile Photo"
                 src="/images/Photo.jpg"
                 className="object-center w-54 h-64 rounded-full custom-position"/>
             <h1
               ref={textOne}
-              className="text-2xl  mt-5 tablet:text-3xl laptop:text-3xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              className="text-2xl mt-5 tablet:text-3xl laptop:text-3xl laptopl:text-4xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
             >
               {data.headerTaglineOne}
             </h1>
@@ -90,11 +90,11 @@ export default function Home() {
             </h1>
             <h1
               ref={textFour}
-              className="text-xl mt-5 p-1 tablet:p-2 text-bold w-full laptop:w-11/12 text-justify indent-10 tracking-wider"
+              className="text-xl mt-5 p-1 tablet:p-2 text-bold w-full laptop:text-justify mx-auto laptop:tracking-wider"
             >
               {data.headerTaglineFour}
             </h1>
-            <button type="button" className="text-white bg-[#2557D6] hover:bg-[#2557D6]/90 focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-lg  px-5 py-3 mt-5 text-center inline-flex items-center dark:focus:ring-[#2557D6]/50 me-2 mb-2"
+            <button type="button" className="text-white bg-[#2557D6] hover:bg-yellow-400 focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-lg  px-5 py-3 mt-5 text-center inline-flex items-center dark:focus:ring-[#2557D6]/50 me-2 mb-2"
                     onClick={()=>{window.open("/Resume_Md_Ariful_Amin.pdf")}}>Download Resume
             </button>
           </div>
@@ -112,6 +112,45 @@ export default function Home() {
                     description={service.description}
                 />
             ))}
+          </div>
+        </div>
+
+        <div className="mt-10 laptop:mt-10 p-2 laptop:p-0">
+          <h1 className="text-5xl text-bold">TECHNICAL SKILLS</h1>
+          <div className="grid grid-cols-1 tablet:grid-cols-2  laptop:grid-cols-2 gap-16">
+            <SkillSet/>
+            <div>
+              <div>
+                <h1 className="text-2xl mt-5 text-bold">App Development</h1>
+                <div className="mb-1 text-base font-medium dark:text-white">Tizen</div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                  <div className='bg-blue-600 h-2.5 rounded-full w-3/4'></div>
+                </div>
+                <div className="mb-1 text-base font-medium text-blue-700 dark:text-blue-500">Android</div>
+                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                  <div className="bg-gray-600 h-2.5 rounded-full dark:bg-gray-300 w-1/4" ></div>
+                </div>
+              </div>
+              <h1 className="text-2xl mt-15 text-bold pt-5">Database</h1>
+              <div className="mb-1 text-base font-medium text-green-700 dark:text-green-500">MYSQL</div>
+              <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                <div className="bg-red-600 h-2.5 rounded-full dark:bg-red-500 w-4/6" ></div>
+              </div>
+              <div className="mb-1 text-base font-medium text-yellow-700 dark:text-yellow-500">SQLite</div>
+              <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                <div className="bg-gray-500 h-2.5 rounded-full dark:bg-gray-300 w-1/2"></div>
+              </div>
+
+              <h1 className="text-2xl mt-15 pt-5 text-bold">Code Repository</h1>
+              <div className="mb-1 text-base font-medium text-green-700 dark:text-green-500">GitHub</div>
+              <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                <div className="bg-green-600 h-2.5 rounded-full dark:bg-green-500 w-4/6" ></div>
+              </div>
+              <div className="mb-1 text-base font-medium text-yellow-700 dark:text-yellow-500">Gerrit</div>
+              <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                <div className="bg-yellow-400 h-2.5 rounded-full w-1/2"></div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -145,44 +184,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-10 p-2 laptop:p-0">
-          <h1 className="text-5xl text-bold">TECHNICAL SKILLS</h1>
-          <div className="grid grid-cols-1 tablet:grid-cols-2  laptop:grid-cols-2 gap-16">
-              <SkillSet/>
-              <div>
-                <div>
-                  <h1 className="text-2xl mt-5 text-bold">App Development</h1>
-                  <div className="mb-1 text-base font-medium dark:text-white">Tizen</div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className='bg-blue-600 h-2.5 rounded-full w-3/4'></div>
-                  </div>
-                  <div className="mb-1 text-base font-medium text-blue-700 dark:text-blue-500">Android</div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-gray-600 h-2.5 rounded-full dark:bg-gray-300 w-1/4" ></div>
-                  </div>
-                </div>
-                <h1 className="text-2xl mt-15 text-bold pt-5">Database</h1>
-                <div className="mb-1 text-base font-medium text-green-700 dark:text-green-500">MYSQL</div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                  <div className="bg-red-600 h-2.5 rounded-full dark:bg-red-500 w-4/6" ></div>
-                </div>
-                <div className="mb-1 text-base font-medium text-yellow-700 dark:text-yellow-500">SQLite</div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                  <div className="bg-gray-500 h-2.5 rounded-full dark:bg-gray-300 w-1/2"></div>
-                </div>
 
-                <h1 className="text-2xl mt-15 pt-5 text-bold">Code Repository</h1>
-                <div className="mb-1 text-base font-medium text-green-700 dark:text-green-500">GitHub</div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                  <div className="bg-green-600 h-2.5 rounded-full dark:bg-green-500 w-4/6" ></div>
-                </div>
-                <div className="mb-1 text-base font-medium text-yellow-700 dark:text-yellow-500">Gerrit</div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                  <div className="bg-yellow-400 h-2.5 rounded-full w-1/2"></div>
-                </div>
-              </div>
-          </div>
-        </div>
         <div className="mt-16 laptop:mt-30 laptop:p-0">
         <h1 className="text-5xl text-bold">EXTRA-CURRICULAR ACTIVITIES, AWARDS AND ACHIEVEMENTS</h1>
         <div className="grid grid-cols-1">
