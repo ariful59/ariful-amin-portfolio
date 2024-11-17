@@ -133,6 +133,7 @@ export default function Home() {
           <div className="mt-5 grid grid-cols-1 gap-6">
             {data.education.map((education, index) => (
                 <Education
+                    key={index}
                     name={education.name}
                     degree={education.degree}
                     duration={education.duration}

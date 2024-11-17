@@ -2,7 +2,6 @@ import React from "react";
 import Socials from "../Socials";
 import Link from "next/link";
 import Button from "../Button";
-import GoogleSchdule from "../Footer/googleSchdule"
 
 const Footer = ({}) => {
   return (
