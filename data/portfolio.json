@@ -3,7 +3,7 @@
   "headerTaglineOne":"Hello, I'm",
   "headerTaglineTwo":"Md Ariful Amin",
   "headerTaglineThree":"Software Engineer",
-  "headerTaglineFour":"I have more than four (4) years of experience in the R&D industry where I worked on health-tech applications. I am proficient in building smartwatch applications from scratch, designing, and integrating APIs, implementing and using smartwatch’s internal APIs, building reusable components, and following scalable design models. Currently, I am privileged to work with a cybersecurity team at a government-owned electricity company, focusing on safeguarding credential information to prevent any potential breaches.",
+  "headerTaglineFour":"With more than five years of experience in the software industry, I specialize\nin developing health-tech wearable applications, especially for smartwatches,\nusing C/C++. I am also skilled at building scalable systems from scratch,\noptimizing the performance of the overall solution, and delivering impactful\nprojects on time, like HeartWise at my previous company. To move into more\neffective data-driven health technological solutions and exciting software\nsolutions, I am pursuing a master's in applied data science at Malmö University,\nstrongly emphasizing machine learning.",
   "showCursor":false,
   "showBlog":false,
   "darkMode":true,
@@ -74,26 +74,38 @@
       "url":"https://github.com/ariful59/FaceRecognition"
     }
   ],
+  "education":[
+    {
+      "id":"1",
+      "name": "Malmö University, Sweden",
+      "degree": "MSc. in Applied Data Science",
+      "duration": "Aug 2024 – Present"
+    },
+    {
+      "id":"2",
+      "name": "University of Dhaka, Bangladesh",
+      "degree": "BSc in Computer Science and Engineering",
+      "duration": "Jan 2014 - Jan 2018"
+    }
+  ],
   "services":[
     {
       "id":"1",
       "link": "https://cpgcbl.portal.gov.bd/",
       "title":"Coal Power Generation Company Bangladesh Limited, Bangladesh",
       "post": "Assistant Programmer",
-      "duration": "APRIL 2022 – PRESENT",
-      "description":["Managed a team of five cyber security professionals to instruct a total of 87 employees and conducted monthly IT audits on the network to detect and address any vulnerabilities which reduced the 20% chances of cyber-attacks.",
-        "Web application development, network maintenance, organization's website development and new feature integration, power plant inventory management, and hardware and software-related support in the organization."
-    ]},
+      "duration": "APRIL 2022 – Aug-2024",
+      "description":["Spearheaded idea generation and conducted in-depth requirement analysis for cutting-edge software solutions, resulting in a 15% boostin organizational KPI achievement while managing and continuouslyoptimizing the official website for peak performance", "Led a front-end development of IT and stationery management software using React, enhancing user efficiency by 30% with optimized UI/UX design and improved system performance"
+      ]},
     {
       "id":"2",
       "link": "",
       "title":"Samsung R&D Institute Bangladesh, Dhaka",
       "post": "Lead Engineer",
       "duration": "JAN 2022 - APRIL 2022",
-      "description":["Worked as a lead Tizen application developer of Samsung Heartwise application built with C++, a cardiac rehabilitation research program collaborated with Samsung Research America (SRA) & Kaiser Permanent, USA.",
-      "Provided language support in multiple languages, and implemented the Six Minutes' Walk Test (6MWT) which is used by 20,000 patients.",
-      "Ensured a secure wireless connection, and facilitated data transfer between a smartwatch and mobile device using Bluetooth Low Energy which eliminated the need for an LTE connection, and reduced the cost of deployment of this program per patient by 16%.",
-      "Performed open-source validation and security checks on multiple versions using in-house software before their market release."]
+      "description":["Worked with Samsung Research America (SRA) to develop the HeartWise smart-watch application, a home-based heart wellness program endorsed by top cardiologists in the USA, significantly enhancing remote patient monitoring and speeding up product delivery timelines.",
+        "Implemented key features such as multilingual support, Six-Minute Walk Test (6MWT), exercise data synchronization, and secure wireless connectivity between smartwatch and mobile using BLE. This BLE communication enhancement eliminated the need for LTE connectivity, reducing per-patient deployment costs by 16%",
+        "Conducted open-source and security verifications for each market release version using in-house software, reducing security risks by13%"]
     },
     {
       "id":"3",
@@ -101,10 +113,10 @@
       "title":"Samsung R&D Institute Bangladesh, Dhaka ",
       "post": "Software Engineer",
       "duration": "APRIL 2018 - DEC 2021",
-      "description":["Implemented reusable 30% UIs of the Heartwise Tizen smartwatch application which are user-friendly for senior citizens.",
-      "Applied encryption-based technique to secure Heartwise application’s database and processed data and batch data from various smartwatch sensor APIs depending on their needs.",
-      "Implemented the self-upgrade mechanism in a smartwatch to enable automatic updates Heartwise application thereby minimizing the inconvenience for patients especially older patients to manually upgrade their application version.",
-      "Resolved over 200 issues to enhance the performance and stability of the Tizen Heartwise application, addressing critical concerns such as battery draining."]
+      "description":["Created an interactive and reusable UI design for the entire HeartWise Tizen smartwatch application, ensuring a smooth user interface that enhances the experience, especially for elderly users.",
+        "Engineered a robust data retrieval and visualization system for smartwatch sensors through seamless API integration.",
+        "Implemented a self-upgrade mechanism for the Heartwise application to enhance the software update process, ensuring lightning-fast and automated updates for all end-users.",
+        "Resolved more than 300 critical issues to optimize and stabilize the Tizen HeartWise application, driving significant improvements in performance, reliability, and overall user satisfaction"]
     }
   ],
   "aboutpara":"Hello.",
@@ -116,7 +128,8 @@
       "Undergrad Thesis Title: “Network lifetime aware anchor selection for energy harvesting wireless sensor networks"],
     "publication": "One Conference Paper In 2017 IEEE Region 10 Humanitarian Technology Conference (R10-HTC)."
   },
-  "extraCuricular": ["Honorary Award from Samsung R&D Institute, Bangladesh (SRBD) Icon of the Month (May ~ June 2019).",
+  "extraCuricular": ["Awarded SI Scholarship for Global Professionals 2024 by the Swedish Institute to support my master’s study in Sweden.",
+    "Honorary Award from Samsung R&D Institute, Bangladesh (SRBD) Icon of the Month (May ~ June 2019).",
   "5th IEEE Region 10 Humanitarian Technology Conference. (Dec 21~23, 2017).",
   "Power and Energy Hackathon, Ministry of Power Energy and Mineral Resources, Bangladesh (April 19~20, 2017).",
   "Member of CSEDU Intra Dept. Soccer team (Champion of 2015, 2017).",

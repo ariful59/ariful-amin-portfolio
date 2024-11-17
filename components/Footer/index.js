@@ -2,6 +2,7 @@ import React from "react";
 import Socials from "../Socials";
 import Link from "next/link";
 import Button from "../Button";
+import GoogleSchdule from "../Footer/googleSchdule"
 
 const Footer = ({}) => {
   return (
@@ -17,6 +18,7 @@ const Footer = ({}) => {
               TOGETHER
             </h1>
             <Button type="primary" onClick={()=>window.open("https://zoom.us/")}>Schedule a call</Button>
+            {/*<Button type="primary" onClick={GoogleSchdule}>Schedule a call</Button>*/}
             <div className="mt-10">
               <Socials />
             </div>
@@ -24,9 +26,9 @@ const Footer = ({}) => {
         </div>
       </div>
       <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0 justify-center flex flex-row">
-        Made With ❤ by{" "}
+        Copywrite@Ariful Amin
         <Link href="http://www.arifulamindu.com">
-          <a className="underline underline-offset-1">Ariful Amin</a>
+          <a className="underline underline-offset-1"></a>
         </Link>
       </h1>
     </>

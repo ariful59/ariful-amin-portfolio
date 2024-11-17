@@ -1,6 +1,5 @@
 {
   "name": "react-portfolio-template",
-  "version": "3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -26,6 +25,7 @@
     "react-pdf": "^7.5.1",
     "react-syntax-highlighter": "^15.5.0",
     "react-textarea-autosize": "^8.3.4",
+    "react-typed": "^2.0.12",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "styled-components": "^5.3.5",
@@ -35,5 +35,10 @@
   "devDependencies": {
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6"
-  }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }
